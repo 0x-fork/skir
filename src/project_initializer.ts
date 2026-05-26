@@ -144,6 +144,15 @@ generators:
   #   #   packagePrefix: my.project.
 
   # # --------------------------------------------------------------------------
+  # # MoonBit code generator
+  # # Home: https://github.com/gepheum/skir-moonbit-gen
+  # # To install runtime dependencies: moon add gepheum/skir-client
+  # # --------------------------------------------------------------------------
+  # - mod: skir-moonbit-gen
+  #   outDir: ./skirout
+  #   config: {}
+
+  # # --------------------------------------------------------------------------
   # # Python code generator
   # # Home: https://github.com/gepheum/skir-python-gen
   # # To install runtime dependencies: pip install skir-client

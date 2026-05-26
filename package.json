@@ -50,6 +50,7 @@
     "skir-internal": "^0.2.21",
     "skir-java-gen": "^1.0.10",
     "skir-kotlin-gen": "^1.0.11",
+    "skir-moonbit-gen": "^0.1.0",
     "skir-python-gen": "^1.0.9",
     "skir-rust-gen": "^0.1.5",
     "skir-swift-gen": "^0.1.7",

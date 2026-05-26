@@ -6,6 +6,7 @@ import * as GoGen from "skir-go-gen";
 import { CodeGenerator } from "skir-internal";
 import * as JavaGen from "skir-java-gen";
 import * as KotlinGen from "skir-kotlin-gen";
+import * as MoonbitGen from "skir-moonbit-gen";
 import * as PythonGen from "skir-python-gen";
 import * as RustGen from "skir-rust-gen";
 import * as SwiftGen from "skir-swift-gen";
@@ -291,6 +292,7 @@ const STATIC_GENERATORS: Record<string, CodeGenerator<unknown>> = {
   "skir-go-gen": GoGen.GENERATOR as any as CodeGenerator<unknown>,
   "skir-java-gen": JavaGen.GENERATOR as any as CodeGenerator<unknown>,
   "skir-kotlin-gen": KotlinGen.GENERATOR as any as CodeGenerator<unknown>,
+  "skir-moonbit-gen": MoonbitGen.GENERATOR as any as CodeGenerator<unknown>,
   "skir-python-gen": PythonGen.GENERATOR as any as CodeGenerator<unknown>,
   "skir-rust-gen": RustGen.GENERATOR as any as CodeGenerator<unknown>,
   "skir-swift-gen": SwiftGen.GENERATOR as any as CodeGenerator<unknown>,
