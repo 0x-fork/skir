@@ -41,7 +41,7 @@ Write your schema once in a `.skir` file and generate idiomatic, type-safe code 
 enum RobotAction {
   wave;
   say: string;
-  goto: Point;
+  move: Point;
 }
 
 struct Point {
@@ -69,14 +69,14 @@ from skirout.robot_skir import Point, RobotAction
 
 wave = RobotAction.wave
 say_hi = RobotAction.wrap_say("Hi!")
-go_to_origin = RobotAction.wrap_goto(Point(x=0, y=0))
+move_origin = RobotAction.wrap_move(Point(x=0, y=0))
 
 # Round-trip serialization to JSON
 action_json = RobotAction.serializer.to_json(say_hi)
 restored = RobotAction.serializer.from_json(action_json)
 
 assert restored == say_hi
-assert go_to_origin.union.kind == "goto"
+assert move_origin.union.kind == "move"
 ```
 
 ## 📚 Documentation
