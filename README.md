@@ -67,7 +67,7 @@ Skir compiles these definitions into native, type-safe code you can use in your 
 
 from skirout.robot_skir import Point, RobotAction
 
-wave = RobotAction.wave
+wave = RobotAction.WAVE
 say_hi = RobotAction.wrap_say("Hi!")
 move_origin = RobotAction.wrap_move(Point(x=0, y=0))
 
