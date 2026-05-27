@@ -15,11 +15,11 @@
 **Skir** is a declarative language for defining data types and APIs.
 Write your schema once in a `.skir` file and generate idiomatic, type-safe code in TypeScript, Python, Java, Go, C++, and more.
 
-## 🎬 Quick demo
+## Quick demo
 
 ![Quick demo](.github/assets/greet.gif)
 
-## ✨ Features
+## Features
 
 - 🧩 **One schema, 10+ languages, zero headaches** - One YAML config, one command, and watch mode that refreshes generated code on every change.
 - 🛡️ **End-to-end type safety** - Shared method and type definitions keep client/server contracts aligned before runtime.
@@ -33,7 +33,7 @@ Write your schema once in a `.skir` file and generate idiomatic, type-safe code 
 - 🛠️ **First-class tooling** - VS Code extension + LSP with validation, completion, and auto-formatting.
 - 🧱 **Easy to extend** - Generators are regular NPM modules, so custom generators plug in cleanly.
 
-## ⚡ Syntax example
+## Syntax example
 
 ```d
 // robot.skir
@@ -79,7 +79,7 @@ assert restored == say_hi
 assert move_origin.union.kind == "move"
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting started: setup & workflow](https://skir.build/docs/setup)
 - [Language reference](https://skir.build/docs/language-reference)
@@ -89,7 +89,7 @@ assert move_origin.union.kind == "move"
 - [Github imports](https://skir.build/docs/github-imports)
 - [Coming from Protocol Buffer](https://skir.build/docs/protobuf)
 
-## 🌍 Supported languages
+## Supported languages
 
 | Language | Documentation | Example |
 | :--- | :--- | :--- |
