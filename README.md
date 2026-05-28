@@ -12,8 +12,8 @@
 
 <br />
 
-**Skir** is a declarative language for defining data types and APIs.
-Write your schema once in a `.skir` file and generate idiomatic, type-safe code in TypeScript, Python, Java, Go, C++, and more.
+**Skir** is a modern declarative schema language for data models and APIs.
+Write once in a `.skir` file - instantly generate clean, idiomatic, and fully type-safe code in TypeScript, Python, Java, Go, C++, and more languages.
 
 ## Quick demo
 
