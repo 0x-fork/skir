@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Skir</h1>
-  <p><strong>Schema language from the future</strong></p>
+  <p><strong>Protobuf reimagined for today</strong></p>
 
   <p>
     <a href="https://skir.build/"><b>skir.build</b></a>
