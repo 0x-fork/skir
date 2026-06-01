@@ -44,7 +44,7 @@
     "glob": "^13.0.6",
     "skir-cc-gen": "^1.0.16",
     "skir-csharp-gen": "^0.1.1",
-    "skir-dart-gen": "^1.0.7",
+    "skir-dart-gen": "^1.0.8",
     "skir-gleam-gen": "^0.1.2",
     "skir-go-gen": "^0.1.7",
     "skir-internal": "^0.2.21",
