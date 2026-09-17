@@ -103,6 +103,10 @@ generators:
   # - mod: skir-gleam-gen
   #   outDir: ./src/skirout
   #   config: {}
+  #   # Alternatively:
+  #   # outDir: ./src/generated/skirout
+  #   # config:
+  #   #   importPathToSkirout: generated/skirout
 
   # # --------------------------------------------------------------------------
   # # Go code generator
