@@ -96,6 +96,16 @@ generators:
   #   config: {}
 
   # # --------------------------------------------------------------------------
+  # # Elixir code generator (Community)
+  # # Home: https://github.com/mishmish-dev/skir-elixir-gen
+  # # Add {:skir_elixir_client, "<version spec>"} to your mix.exs dependencies
+  # # --------------------------------------------------------------------------
+  # - mod: skir-elixir-gen
+  #   outDir: ./lib/skirout
+  #   config:
+  #     namespace: MyApp.Protocol
+
+  # # --------------------------------------------------------------------------
   # # Gleam code generator
   # # Home: https://github.com/gepheum/skir-gleam-gen
   # # To install runtime dependencies: gleam add skir_client

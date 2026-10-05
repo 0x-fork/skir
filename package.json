@@ -45,6 +45,7 @@
     "skir-cc-gen": "^1.0.16",
     "skir-csharp-gen": "^0.1.1",
     "skir-dart-gen": "^1.0.9",
+    "skir-elixir-gen": "^0.1.3",
     "skir-gleam-gen": "^0.1.4",
     "skir-go-gen": "^0.1.7",
     "skir-internal": "^0.2.21",
