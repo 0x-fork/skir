@@ -106,3 +106,4 @@ assert move_origin.union.kind == "move"
 | ✨ **Gleam** | [Documentation](https://skir.build/docs/gleam) | [Example](https://github.com/gepheum/skir-gleam-example) |
 | ⚡ **Zig** | [Documentation](https://skir.build/docs/zig) | [Example](https://github.com/gepheum/skir-zig-example) |
 | 🌙 **MoonBit** | [Documentation](https://skir.build/docs/moonbit) | [Example](https://github.com/gepheum/skir-moonbit-example) |
+| 💧 **Elixir** (Community) | [Documentation](https://github.com/mishmish-dev/skir-elixir-gen) | [Example](https://github.com/mishmish-dev/skir-elixir-example) |

@@ -96,6 +96,16 @@ generators:
   #   config: {}
 
   # # --------------------------------------------------------------------------
+  # # Elixir code generator (Community)
+  # # Home: https://github.com/mishmish-dev/skir-elixir-gen
+  # # Add {:skir_elixir_client, "<version spec>"} to your mix.exs dependencies
+  # # --------------------------------------------------------------------------
+  # - mod: skir-elixir-gen
+  #   outDir: ./lib/skirout
+  #   config:
+  #     namespace: MyApp.Protocol
+
+  # # --------------------------------------------------------------------------
   # # Gleam code generator
   # # Home: https://github.com/gepheum/skir-gleam-gen
   # # To install runtime dependencies: gleam add skir_client
@@ -170,6 +180,18 @@ generators:
   #   #   packagePrefix: my.project.
 
   # # --------------------------------------------------------------------------
+  # # Rust code generator
+  # # Home: https://github.com/gepheum/skir-rust-gen
+  # # Complete these 3 steps:
+  # # (1) Install runtime dependencies: cargo add skir-client
+  # # (2) In ./src/lib.rs, add this line: 'pub mod skirout;'
+  # # (3) Create a new ./src/skirout.rs file with this content: 'pub mod base;'
+  # # --------------------------------------------------------------------------
+  # - mod: skir-rust-gen
+  #   outDir: ./src/skirout
+  #   config: {}
+
+  # # --------------------------------------------------------------------------
   # # Swift code generator
   # # Home: https://github.com/gepheum/skir-swift-gen
   # # To install runtime dependencies:
@@ -182,18 +204,6 @@ generators:
   #     # Whether to generate public declarations.
   #     # If false, declarations are internal.
   #     public: false
-
-  # # --------------------------------------------------------------------------
-  # # Rust code generator
-  # # Home: https://github.com/gepheum/skir-rust-gen
-  # # Complete these 3 steps:
-  # # (1) Install runtime dependencies: cargo add skir-client
-  # # (2) In ./src/lib.rs, add this line: 'pub mod skirout;'
-  # # (3) Create a new ./src/skirout.rs file with this content: 'pub mod base;'
-  # # --------------------------------------------------------------------------
-  # - mod: skir-rust-gen
-  #   outDir: ./src/skirout
-  #   config: {}
 
   # # --------------------------------------------------------------------------
   # # TypeScript/JavaScript code generator
