@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Skir</h1>
-  <p><strong>Types that travel</strong></p>
+  <p><strong>Types that travel.</strong></p>
 
   <p>
     <a href="https://skir.build/"><b>skir.build</b></a>
